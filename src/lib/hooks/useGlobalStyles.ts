@@ -18,9 +18,9 @@ function useGlobalStyles(duration: number, hideScrollbars: boolean) {
     document.head.appendChild(tag);
 
     return function() {
-      const stylesheet = '';
+//       const stylesheet = '';
             // TODO fix: document.querySelector(`style[data-react-bottom-drawer='${identifier}']`);
-      if (stylesheet) { stylesheet.remove(); }
+//       if (stylesheet) { stylesheet.remove(); }
     }
   }, [duration, hideScrollbars]);
 
